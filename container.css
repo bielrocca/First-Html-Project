@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+}
+
+.links{
+    text-align: center;
+}
+
+.header{
+    text-align: center;
+    margin: 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}

@@ -1,0 +1,22 @@
+body{
+    background-image: url(./fundo_preto.png);
+    margin: 0;
+}
+
+.role1{
+    text-decoration: none;
+    color: rgb(152, 250, 5);
+    text-align: center;
+}
+
+.copy{
+    color: white;
+    text-align: center;
+}
+
+.markdown-heading{
+    text-align: center;
+    color: white;
+    height: 30px;
+    margin: 0;
+}
