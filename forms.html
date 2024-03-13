@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./forms.css">
     <title>Formularios</title>
 </head>
 <body>
-    <h1>Formulários</h1>
+    <header class="markdown-heading">
+        <h1>Formulários</h1>
+        <p>(sem banco de dados inserido)</p>
+    </header>
+    <br>
     <form action="">
         <label for=""></label>
         <input type="text" placeholder="Seu Nome">
@@ -15,6 +20,66 @@
         <input id="email" type="email">
         <br>
         <input type="tel" placeholder="Seu Telefone">
+        <br>
+        <input type="number" max="10" min="0"> 
+        <br>
+        <input type="file">
+        <br>
+        <input type="color">
+        <br>
+        <input type="checkbox" id="Lembrar-se">
+        <label for="Lembrar-se">Lembrar-se</label>
+        <p>
+            Qual seu Filme favorito ?
+        </p>
+        <input type="radio" id="GG" name="filme-favorito"><label for="GG"> Guardiões da Galaxia (A Triologia Inteira)</label>
+        <input type="radio" id="ES" name="filme-favorito"><label for="ES"> Esquadrão Suicida</label>
+        <input type="radio" id="VF" name="filme-favorito"><label for="VF"> Velozes e Fusiosos (A Triologia Inteira)</label>
+        <br>
+        <br>
+        <label for="">Qual sua cor favorita ?</label>
+        <select name="" id="">
+            <option value="">Preto</option>
+            <option value="">Azul</option>
+            <option value="">Verde</option>
+            <option value="">Amarelo</option>
+            <option value="">Vermelho</option>
+            <option value="">Branco</option>
+            <option value="">Rosa</option>
+            <option value="">Roxo</option>
+        </select>
+        <br>
+        <br>
+        <label for="">Qual a Sua Idade ?</label>
+        <select name="" id="">
+            <option value="">12 ao 17</option>
+            <option value="">18 ao 26</option>
+            <option value="">27 ao 35</option>
+            <option value="">35 ao 44</option>
+            <option value="">44 ao 53</option>
+            <option value="">53 ao 62</option>
+        </select>
+        <br>
+        <br>
+        <textarea name="" id="" cols="30" rows="3" placeholder="Descrição"></textarea>
+        <button type="submit">
+            Enviar
+        </button>
+        <button type="reset">
+            Limpar
+        </button>
     </form>
+    <hr>
+    <div class="heading-final">
+        <nav class="links">
+            <a class="links" href="./container.html">Página de Containers /</a>
+            <a class="links" href="./lista.html">Página de Listas /</a>
+            <a class="links" href="./tabelas.html">Página Tabelas</a>
+        </nav>
+    </div>
+    <br>
+    <footer align="center">
+        &copy; 2024 -  BielRocca Entertainment
+    </footer>
 </body>
 </html>
