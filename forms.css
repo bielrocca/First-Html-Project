@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+
+.markdown-heading{
+    text-align: center;
+    margin: 0;
+    padding: 1px;
+    height: 110px;
+    background-color: black;
+    color: white;
+}
+
+.heading-final{
+    text-align: center;
+}
+
+.links{
+    text-decoration: none;
+}
